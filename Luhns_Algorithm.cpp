@@ -34,11 +34,7 @@ int main() {
         num = num / 10;
     }
 
-    if (arr[i] == 4) cout << "Card Type: VISA CARD" << endl;
-    else if (arr[i] == 5) cout << "Card Type: MASTER CARD" << endl;
-    else if (arr[i] == 3 && arr[i - 1] == 5) cout << "Card Type: AMERICAN EXPRESS CARD" << endl;
-    else if (arr[i] == 6) cout << "Card Type: DISCOVER CARD" << endl;
-    Luhns_algorithm(arr, i) ? cout << "Number is VALID😎😎😎😎" << endl : cout << "the Number is NOT VALID!!! 😒😒😒😒 "
+    Luhns_algorithm(arr, i) ? cout << "Number is VALID according to luhns algorithm😎😎😎😎" << endl : cout << "the Number is NOT VALID accoding to luhns algorithm!!! 😒😒😒😒 "
                                                                                << endl;
 
     return 0;
